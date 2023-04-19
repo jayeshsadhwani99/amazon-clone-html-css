@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+:root {
+  --background-color: #e3e6e6;
+  --text-color: #0f1111;
+  --primary-color: #121920;
+  --secondary-color: #232f3f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.small {
+  font-size: 0.75rem;
+}
+
+nav {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  padding-bottom: 0rem;
+  display: flex;
+  align-items: center;
+}
+
+nav .logo {
+  display: flex;
+}
+
+nav .logo img {
+  width: 120px;
+  margin: 0;
+}
+
+nav .section .info {
+  margin-left: 8px;
+}
+
+nav .section {
+  margin: 0 10px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+nav #search_input {
+  padding: 1rem;
+  font-size: 1rem;
+  flex: 1;
+  width: 100%;
+}
+
+nav .language {
+  margin-bottom: 1rem;
+}
+
+nav .account {
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+nav .flag {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
