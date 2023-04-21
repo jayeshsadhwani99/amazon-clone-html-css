@@ -1,8 +1,10 @@
 #categories {
   background-color: var(--secondary-color);
-  color: white;
+  color: var(--background-color);
   font-size: 0.8rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 
@@ -14,5 +16,5 @@
 
 .category:hover {
   cursor: pointer;
-  border: 1px solid white;
+  border: 1px solid var(--background-color);
 }
