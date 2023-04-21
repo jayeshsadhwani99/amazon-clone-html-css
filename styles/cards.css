@@ -1,0 +1,17 @@
+.cards {
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  width: 25%;
+  height: auto;
+  min-height: 200px;
+  background-color: white;
+  padding: 1rem;
+}
+
+.card img {
+  margin: 1rem 0;
+  max-width: 100%;
+}

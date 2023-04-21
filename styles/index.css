@@ -19,12 +19,36 @@ html {
 
 body {
   background-color: var(--background-color);
+  overflow-x: hidden;
+}
+
+a {
+  font-size: 0.8rem;
+  text-decoration: none;
 }
 
 .bold {
   font-weight: 700;
 }
 
+.semibold {
+  font-weight: 500;
+}
+
 .small {
   font-size: 0.75rem;
+}
+
+.title {
+  font-size: 1.4rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
