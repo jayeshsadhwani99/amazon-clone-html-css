@@ -14,7 +14,7 @@
 }
 
 .scrollable-card .column {
-  width: 240px;
+  max-width: 240px;
 }
 
 .scrollable-card .image {

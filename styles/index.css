@@ -40,6 +40,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: var(--red);
 }
 
 .bold {
@@ -70,4 +71,21 @@ a:hover {
 .column {
   display: flex;
   flex-direction: column;
+}
+
+button {
+  background-color: var(--yellow);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--yellow-dark);
 }
