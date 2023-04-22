@@ -31,14 +31,41 @@ nav .logo img {
 }
 
 nav #search_input {
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 1rem;
   flex: 1;
   width: 100%;
+  border: none;
+}
+
+nav #search-btn {
+  width: fit-content;
+  background-color: #febd69;
+  border-radius: 0;
+  margin: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0.5rem 0.75rem;
+}
+
+nav #search-btn:hover {
+  background-color: #f3a847;
+}
+
+#search-dropdown {
+  border: none;
+  border-right: 0.5px solid gray;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 0.25rem;
+  font-size: 0.75rem;
+  color: gray;
 }
 
 nav .search {
   flex: 1;
+  display: flex;
+  align-items: stretch;
 }
 
 nav .flag {
