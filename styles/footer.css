@@ -1,0 +1,60 @@
+footer button {
+  margin: 0;
+  padding: 1rem;
+  background-color: var(--button-background);
+  color: white;
+  border-radius: 0;
+  font-size: 0.8rem;
+}
+
+footer button:hover {
+  background-color: #485769;
+}
+
+footer .footer-content {
+  background-color: var(--footer-background);
+  color: white;
+  padding: 2rem;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer .row {
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 1rem auto;
+}
+
+footer .title {
+  font-size: 1rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer ul {
+  margin-top: 0.5rem;
+}
+
+footer ul li {
+  margin: 0.5rem 0;
+}
+
+footer hr {
+  border: none;
+  border-top: 0.5px solid var(--background-color);
+  width: 100%;
+}
+
+footer img {
+  width: 100px;
+}
