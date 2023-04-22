@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./styles/main.css" type="text/css" />
     <link rel="stylesheet" href="./styles/cards.css" type="text/css" />
     <link rel="stylesheet" href="./styles/footer.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/caraousel.css" type="text/css" />
     <link
       rel="stylesheet"
       href="./styles/scrollable-card.css"
@@ -95,10 +96,37 @@
     </section>
 
     <section id="main">
-      <img
-        src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/Samsung/SamsungM/M14/Sale-starts/Rv/D77911710_IN_WLME_SamsungM_M145G_Launch_tallhero_1500x600._CB592402187_.jpg"
-        id="caraousel"
-      />
+      <div id="caraousel">
+        <div id="carousel-images">
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/Samsung/SamsungM/M14/Sale-starts/Rv/D77911710_IN_WLME_SamsungM_M145G_Launch_tallhero_1500x600._CB592402187_.jpg"
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/iQOO/Anni/D77349304_3000x1200._CB592217668_.jpg"
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Kartik/MARCHGTM/IPL2023/1percentCB/Recharge_PC_Hero_3000x1200_2._CB593370740_.jpg"
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/digital/music/merch/India/2022/Sep/gw/"
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/March_2023/BAU_ATF/Shoes/Fab_feet_fest/Fed/Revised/New/Onecard/PC3000_shoes._CB592240554_.jpg"
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fresh/GW/April/19/19th_Fresh_GW_Hero_PC2x._CB592220409_.jpg"
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2023/GWHeros/Apr/19th/Centrino/PC_3000_19th_April_Men._CB592198741_.png"
+          />
+        </div>
+        <button id="prev">
+          <i class="fa fa-angle-left fa-4x" style="color: white"></i>
+        </button>
+        <button id="next">
+          <i class="fa fa-angle-right fa-4x" style="color: white"></i>
+        </button>
+      </div>
       <section id="content">
         <div class="padded-content">
           <div class="row cards">
@@ -652,5 +680,6 @@
       feather.replace();
     </script>
     <script src="scripts/index.js"></script>
+    <script src="scripts/caraousel.js"></script>
   </body>
 </html>

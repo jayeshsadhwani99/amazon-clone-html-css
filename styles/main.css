@@ -2,6 +2,24 @@
   z-index: -1;
 }
 
+#caraousel button {
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  height: 20rem;
+  width: fit-content;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+#prev {
+  left: 0;
+}
+
+#next {
+  right: 0;
+}
+
 #main {
   position: relative;
 }

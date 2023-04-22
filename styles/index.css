@@ -92,7 +92,3 @@ button {
   margin: 1rem 0;
   cursor: pointer;
 }
-
-button:hover {
-  background-color: var(--yellow-dark);
-}
