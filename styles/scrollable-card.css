@@ -1,0 +1,62 @@
+.scrollable-card {
+  width: 100%;
+  background-color: white;
+  padding: 1.2rem 1rem;
+}
+
+.scrollable-card .row {
+  overflow: scroll;
+}
+
+.scrollable-card .row {
+  align-items: center;
+  gap: 10px;
+}
+
+.scrollable-card .column {
+  width: 240px;
+}
+
+.scrollable-card .image {
+  background-color: var(--image-background);
+  padding: 0.5rem 1rem;
+  height: 200px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrollable-card img {
+  max-width: 224px;
+  max-height: 184px;
+  margin: auto;
+}
+
+.scrollable-card .row {
+  margin-bottom: 1rem;
+}
+
+.scrollable-card .offer {
+  font-size: 0.75rem;
+  margin: 1rem 0;
+}
+
+.scrollable-card .small {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.scrollable-card .percentage {
+  background-color: var(--red);
+  padding: 0.5rem;
+  color: white;
+}
+
+.scrollable-card .highlight {
+  color: var(--red);
+  font-weight: bold;
+}

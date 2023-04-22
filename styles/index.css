@@ -5,8 +5,12 @@
   --text-color: #0f1111;
   --primary-color: #121920;
   --secondary-color: #232f3f;
+  --link-color: #007185;
+  --image-background: rgba(15, 17, 17, 0.03);
+
   --yellow: #fcd200;
   --yellow-dark: #f7ca00;
+  --red: #cc0c39;
 }
 
 * {
@@ -24,9 +28,18 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  max-width: 100%;
+}
+
 a {
   font-size: 0.8rem;
   text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .bold {
