@@ -5,6 +5,8 @@
   --text-color: #0f1111;
   --primary-color: #121920;
   --secondary-color: #232f3f;
+  --yellow: #fcd200;
+  --yellow-dark: #f7ca00;
 }
 
 * {
@@ -41,6 +43,10 @@ a {
 
 .title {
   font-size: 1.4rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .row {

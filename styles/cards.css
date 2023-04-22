@@ -5,8 +5,8 @@
 
 .card {
   width: 25%;
-  height: auto;
-  min-height: 200px;
+  height: fit-content;
+  min-height: 100px;
   background-color: white;
   padding: 1rem;
 }
@@ -14,4 +14,39 @@
 .card img {
   margin: 1rem 0;
   max-width: 100%;
+}
+
+.card .row img {
+  flex: 1;
+  margin: 0;
+}
+
+.card .row {
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.card > .column {
+  margin: 1.2rem 0;
+}
+
+.card .row .column {
+  flex: 1;
+}
+
+.card button {
+  background-color: var(--yellow);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: var(--yellow-dark);
 }
