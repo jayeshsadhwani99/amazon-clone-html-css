@@ -1,10 +1,10 @@
 footer button {
   margin: 0;
-  padding: 1rem;
+  padding: 1vw;
   background-color: var(--button-background);
   color: white;
   border-radius: 0;
-  font-size: 0.8rem;
+  font-size: 0.8vw;
 }
 
 footer button:hover {
@@ -14,23 +14,23 @@ footer button:hover {
 footer .footer-content {
   background-color: var(--footer-background);
   color: white;
-  padding: 2rem;
-  font-size: 0.9rem;
+  padding: 2vw;
+  font-size: 0.9vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1vw;
 }
 
 footer .row {
   width: 100%;
   justify-content: space-evenly;
-  margin: 1rem auto;
+  margin: 1vw auto;
 }
 
 footer .title {
-  font-size: 1rem;
+  font-size: 1vw;
 }
 
 footer a {
@@ -42,11 +42,11 @@ footer a:hover {
 }
 
 footer ul {
-  margin-top: 0.5rem;
+  margin-top: 0.5vw;
 }
 
 footer ul li {
-  margin: 0.5rem 0;
+  margin: 0.5vw 0;
 }
 
 footer hr {

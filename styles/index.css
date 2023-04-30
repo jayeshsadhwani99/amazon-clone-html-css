@@ -36,7 +36,7 @@ img {
 }
 
 a {
-  font-size: 0.8rem;
+  font-size: 0.8vw;
   text-decoration: none;
   color: var(--link-color);
 }
@@ -59,11 +59,11 @@ li {
 }
 
 .small {
-  font-size: 0.75rem;
+  font-size: 0.75vw;
 }
 
 .title {
-  font-size: 1.4rem;
+  font-size: 1.4vw;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -86,9 +86,9 @@ button {
   border: none;
   border-radius: 5px;
   width: 100%;
-  padding: 0.5rem;
-  font-size: 0.8rem;
+  padding: 0.5vw;
+  font-size: 0.8vw;
   font-weight: 500;
-  margin: 1rem 0;
+  margin: 1vw 0;
   cursor: pointer;
 }

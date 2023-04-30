@@ -1,7 +1,7 @@
 #categories {
   background-color: var(--secondary-color);
   color: var(--background-color);
-  font-size: 0.8rem;
+  font-size: 0.8vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@
 .category {
   width: fit-content;
   border: 1px solid transparent;
-  padding: 0.5rem;
+  padding: 0.5vw;
 }
 
 .category:hover {

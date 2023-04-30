@@ -1,7 +1,7 @@
 .scrollable-card {
   width: 100%;
   background-color: white;
-  padding: 1.2rem 1rem;
+  padding: 1.2vw 1vw;
 }
 
 .scrollable-card .row {
@@ -19,7 +19,7 @@
 
 .scrollable-card .image {
   background-color: var(--image-background);
-  padding: 0.5rem 1rem;
+  padding: 0.5vw 1vw;
   height: 200px;
   width: 240px;
   display: flex;
@@ -34,16 +34,16 @@
 }
 
 .scrollable-card .row {
-  margin-bottom: 1rem;
+  margin-bottom: 1vw;
 }
 
 .scrollable-card .offer {
-  font-size: 0.75rem;
-  margin: 1rem 0;
+  font-size: 0.75vw;
+  margin: 1vw 0;
 }
 
 .scrollable-card .small {
-  font-size: 0.8rem;
+  font-size: 0.8vw;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -52,7 +52,7 @@
 
 .scrollable-card .percentage {
   background-color: var(--red);
-  padding: 0.5rem;
+  padding: 0.5vw;
   color: white;
 }
 

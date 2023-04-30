@@ -1,8 +1,8 @@
 nav {
   background-color: var(--primary-color);
   color: white;
-  padding: 1rem;
-  padding-bottom: 0rem;
+  padding: 1vw;
+  padding-bottom: 0vw;
   display: flex;
   align-items: center;
 }
@@ -22,7 +22,7 @@ nav .logo img {
 
 .nav-section {
   margin: 0 10px;
-  margin-bottom: 1rem;
+  margin-bottom: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,8 +31,8 @@ nav .logo img {
 }
 
 nav #search_input {
-  padding: 0.5rem;
-  font-size: 1rem;
+  padding: 0.5vw;
+  font-size: 1vw;
   flex: 1;
   width: 100%;
   border: none;
@@ -45,7 +45,7 @@ nav #search-btn {
   margin: 0;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5vw 0.75vw;
 }
 
 nav #search-btn:hover {
@@ -57,8 +57,8 @@ nav #search-btn:hover {
   border-right: 0.5px solid gray;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  padding: 0.25rem;
-  font-size: 0.75rem;
+  padding: 0.25vw;
+  font-size: 0.75vw;
   color: gray;
 }
 
@@ -72,4 +72,14 @@ nav .flag {
   width: 30px;
   height: 30px;
   margin-right: 5px;
+}
+
+@media (max-width: 800px) {
+  nav {
+    font-size: 10px;
+  }
+
+  nav .logo img {
+    width: 50px;
+  }
 }

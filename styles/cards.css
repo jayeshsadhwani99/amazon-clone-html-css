@@ -8,11 +8,11 @@
   height: fit-content;
   min-height: 100px;
   background-color: white;
-  padding: 1rem;
+  padding: 1vw;
 }
 
 .card img {
-  margin: 1rem 0;
+  margin: 1vw 0;
   max-width: 100%;
 }
 
@@ -23,11 +23,11 @@
 
 .card .row {
   gap: 10px;
-  margin-bottom: 1rem;
+  margin-bottom: 1vw;
 }
 
 .card > .column {
-  margin: 1.2rem 0;
+  margin: 1.2vw 0;
 }
 
 .card .row .column {
@@ -40,10 +40,10 @@
   border: none;
   border-radius: 5px;
   width: 100%;
-  padding: 0.5rem;
-  font-size: 0.8rem;
+  padding: 0.5vw;
+  font-size: 0.8vw;
   font-weight: 500;
-  margin: 1rem 0;
+  margin: 1vw 0;
   cursor: pointer;
 }
 
