@@ -3,3 +3,25 @@
   flex-direction: row;
   transition: transform 0.5s;
 }
+
+#caraousel {
+  z-index: -1;
+}
+
+#caraousel button {
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  height: 20vw;
+  width: fit-content;
+  padding: 1vw;
+  font-size: 1vw;
+}
+
+#prev {
+  left: 0;
+}
+
+#next {
+  right: 0;
+}

@@ -22,5 +22,4 @@ function showPrevImage() {
 prevButton.addEventListener("click", showPrevImage);
 nextButton.addEventListener("click", showNextImage);
 
-// Optional: Automatically slide images every 3 seconds
 setInterval(showNextImage, 3000);
